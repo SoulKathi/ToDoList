@@ -9,13 +9,15 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
+        //VStack {
+        //NavigationView {
+            /*Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+            Text("Hello, world!")*/
+        LogInView()
+        //}
+        //.padding()
     }
 }
 

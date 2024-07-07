@@ -33,6 +33,7 @@
 		A97E504B2C3B128600C656B2 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E504A2C3B128600C656B2 /* RegisterViewViewModel.swift */; };
 		A97E504D2C3B12AA00C656B2 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E504C2C3B12AA00C656B2 /* ToDoListItemViewViewModel.swift */; };
 		A97E50512C3B30C300C656B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A97E50502C3B30C300C656B2 /* GoogleService-Info.plist */; };
+		A97E50532C3B37D800C656B2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E50522C3B37D800C656B2 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		A97E504A2C3B128600C656B2 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		A97E504C2C3B12AA00C656B2 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		A97E50502C3B30C300C656B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A97E50522C3B37D800C656B2 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				A97E50362C3B0F3B00C656B2 /* LogInView.swift */,
 				A97E50382C3B0F6100C656B2 /* RegisterView.swift */,
 				A97E503A2C3B101800C656B2 /* ToDoListItemView.swift */,
+				A97E50522C3B37D800C656B2 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A97E50372C3B0F3B00C656B2 /* LogInView.swift in Sources */,
+				A97E50532C3B37D800C656B2 /* HeaderView.swift in Sources */,
 				A97E4FFC2C3B01D400C656B2 /* MainView.swift in Sources */,
 				A97E504B2C3B128600C656B2 /* RegisterViewViewModel.swift in Sources */,
 				A97E50412C3B11E300C656B2 /* MainViewViewModel.swift in Sources */,
