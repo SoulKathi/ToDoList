@@ -34,6 +34,7 @@
 		A97E504D2C3B12AA00C656B2 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E504C2C3B12AA00C656B2 /* ToDoListItemViewViewModel.swift */; };
 		A97E50512C3B30C300C656B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A97E50502C3B30C300C656B2 /* GoogleService-Info.plist */; };
 		A97E50532C3B37D800C656B2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E50522C3B37D800C656B2 /* HeaderView.swift */; };
+		A97E50552C3EAF5500C656B2 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E50542C3EAF5400C656B2 /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		A97E504C2C3B12AA00C656B2 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		A97E50502C3B30C300C656B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A97E50522C3B37D800C656B2 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		A97E50542C3EAF5400C656B2 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 				A97E50382C3B0F6100C656B2 /* RegisterView.swift */,
 				A97E503A2C3B101800C656B2 /* ToDoListItemView.swift */,
 				A97E50522C3B37D800C656B2 /* HeaderView.swift */,
+				A97E50542C3EAF5400C656B2 /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				A97E50412C3B11E300C656B2 /* MainViewViewModel.swift in Sources */,
 				A97E50332C3B0EE300C656B2 /* ToDoListView.swift in Sources */,
 				A97E50392C3B0F6100C656B2 /* RegisterView.swift in Sources */,
+				A97E50552C3EAF5500C656B2 /* TLButton.swift in Sources */,
 				A97E50432C3B121700C656B2 /* ProfileViewViewModel.swift in Sources */,
 				A97E50312C3B0EB400C656B2 /* ProfileView.swift in Sources */,
 				A97E503D2C3B116B00C656B2 /* User.swift in Sources */,
