@@ -8,16 +8,15 @@
 import SwiftUI
 
 struct MainView: View {
+    @StateObject var viewModel = MainViewViewModel()
+    
     var body: some View {
-        //VStack {
-        //NavigationView {
-            /*Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")*/
-        LogInView()
-        //}
-        //.padding()
+        if viewModel.isSignedIn, !viewModel.currentUserId.isEmpty {
+            // Signed in
+            ToDoListView()
+        } else {
+            LogInView()
+        }
     }
 }
 
